@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/desarrolloaplicaciones_equipo6/static/css/main.0d92272d.css",
+    "main.js": "/desarrolloaplicaciones_equipo6/static/js/main.455aa826.js",
+    "static/js/787.c6c8b9df.chunk.js": "/desarrolloaplicaciones_equipo6/static/js/787.c6c8b9df.chunk.js",
+    "static/media/logoITT.jpg": "/desarrolloaplicaciones_equipo6/static/media/logoITT.b5ce533abe2cfd32691b.jpg",
+    "index.html": "/desarrolloaplicaciones_equipo6/index.html",
+    "main.0d92272d.css.map": "/desarrolloaplicaciones_equipo6/static/css/main.0d92272d.css.map",
+    "main.455aa826.js.map": "/desarrolloaplicaciones_equipo6/static/js/main.455aa826.js.map",
+    "787.c6c8b9df.chunk.js.map": "/desarrolloaplicaciones_equipo6/static/js/787.c6c8b9df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d92272d.css",
+    "static/js/main.455aa826.js"
+  ]
+}
