@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState, useEffect } from 'react';
+import Swal from 'sweetalert2';
+import Header from './Components/Header';
+import Body from './Components/Body';
+import Search from './Components/Search';
+import Banner from './Components/Banner';
+import Formulario from './Components/Formulario';
+import FirebaseProvider from './Context/FirebaseContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FirebaseProvider>
+      <div className="App">
+        <Header />
+        <Search />
+        <Formulario />
+        <Body />
+        <Banner />
+      </div>
+    </FirebaseProvider>
   );
 }
 

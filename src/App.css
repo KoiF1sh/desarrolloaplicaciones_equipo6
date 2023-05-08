@@ -3,36 +3,103 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;
+  height: 8vmin;
+  vertical-align: middle;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Banner {
+  align-items: stretch;
+  background-color: #2b4c40;
+  color: #fff;
+  flex-wrap: wrap;
+  font-size: calc(9px + 1vmin);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  vertical-align: middle;
+  min-height: 5vh;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  background-color: #000;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  min-height: 15vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Separar1 {
+  padding: 2em 2em 2em 2em;
+}
+
+.Separar2 {
+  padding: 0em 0em 2em 0em;
+}
+
+.Separar3 {
+  padding: 1em 0em 0.5em 0em;
+}
+
+.Search {
+  align-items: center;
+  background-color: #272727;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 5vh;
+}
+
+.Contenedor1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: calc(5px + 2vmin);
+  background-color: #000;
+  width: 50vh;
+  height: 10vh;
+}
+
+.Body {
+  background-color: #fff;
+  color: #000;
+  font-size: calc(9px + 1.5vmin);
+  justify-content: space-evenly;
+  min-height: 75vh;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
+.Contenedor2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  align-items: stretch;
+}
+
+input[type=text] {
+  box-shadow: inset 0 1px 3px #ddd;
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+button{
+  background-color: #04AA6D;
+border: none;
+color: white;
+padding: 15px 32px;
+text-decoration: none;
+margin: 4px 2px;
 }
