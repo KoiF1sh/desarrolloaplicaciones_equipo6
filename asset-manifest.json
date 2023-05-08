@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/desarrolloaplicaciones_equipo6/static/css/main.9bb5e8c5.css",
-    "main.js": "/desarrolloaplicaciones_equipo6/static/js/main.6423ff7e.js",
+    "main.css": "/desarrolloaplicaciones_equipo6/static/css/main.3b24ac00.css",
+    "main.js": "/desarrolloaplicaciones_equipo6/static/js/main.bc46f97a.js",
     "static/js/787.c6c8b9df.chunk.js": "/desarrolloaplicaciones_equipo6/static/js/787.c6c8b9df.chunk.js",
-    "static/media/logoITT.jpg": "/desarrolloaplicaciones_equipo6/static/media/logoITT.b5ce533abe2cfd32691b.jpg",
+    "static/media/Kangaroo1.png": "/desarrolloaplicaciones_equipo6/static/media/Kangaroo1.5c37fb44fe10f5bdf9b4.png",
     "index.html": "/desarrolloaplicaciones_equipo6/index.html",
-    "main.9bb5e8c5.css.map": "/desarrolloaplicaciones_equipo6/static/css/main.9bb5e8c5.css.map",
-    "main.6423ff7e.js.map": "/desarrolloaplicaciones_equipo6/static/js/main.6423ff7e.js.map",
+    "main.3b24ac00.css.map": "/desarrolloaplicaciones_equipo6/static/css/main.3b24ac00.css.map",
+    "main.bc46f97a.js.map": "/desarrolloaplicaciones_equipo6/static/js/main.bc46f97a.js.map",
     "787.c6c8b9df.chunk.js.map": "/desarrolloaplicaciones_equipo6/static/js/787.c6c8b9df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb5e8c5.css",
-    "static/js/main.6423ff7e.js"
+    "static/css/main.3b24ac00.css",
+    "static/js/main.bc46f97a.js"
   ]
 }
