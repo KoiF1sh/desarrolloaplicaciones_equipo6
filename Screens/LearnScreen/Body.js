@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'flex-start',
-        height: '83%',
+        height: '85%',
     },
     contenedor1: {
         flexDirection: 'row',

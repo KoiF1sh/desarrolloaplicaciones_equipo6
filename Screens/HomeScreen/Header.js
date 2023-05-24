@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#000',
         alignItems: 'center',
         justifyContent: 'space-evenly',
-        minHeight: 50,
+        minHeight: 40,
     },
     contenedor1: {
         flexDirection: 'row',

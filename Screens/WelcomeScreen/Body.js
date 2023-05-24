@@ -5,28 +5,27 @@ import React from 'react';
 const Body = ({ navigation }) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.texto0}>¿Quienes somos?
-            </Text>
-            <Text style={styles.texto1}>Somos una organización internacional de conservación sin fines de lucro. Integramos la salud y el cuidado de la vida silvestre, la ciencia
-                y la educación para desarrollar soluciones de conservación sostenibles. La conservación está en el corazón de todo lo que hacemos. Y comienza
-                con esa conexión que hacemos con las personas y la vida silvestre todos los días. Porque cuando la vida silvestre prospera, toda la vida prospera.
-            </Text>
-            <View style={styles.contenedor1}>
-                <Button
-                    title="Conocer mas >"
-                    color={'#000'}
-                    onPress={() => navigation.navigate('LearnScreen')}
-                />
-                <Button
-                    title='Ir al sitio >'
-                    color={'#000'}
-                    onPress={() => navigation.navigate('WelcomeScreen')}
-                />
-            </View>
             <Image
                 style={styles.img}
-                source={require('./src/Images/Wolf0.gif')}
+                source={require('./src/Images/Animals0.jpg')}
             />
+            <Text style={styles.texto1}>Saludos socio, le agradecemos su instancia. Como 
+            parte de nuestra familia, ¡estamos ansiosos por comenzar este nuevo 
+            viaje con usted.
+            </Text>
+            <Text style={styles.texto1}> Opciones.</Text>
+            <View style={styles.contenedor1}>
+                <Button
+                    title="Ir a la seccion de animales >"
+                    color={'#000'}
+                    onPress={() => navigation.navigate('AddAnimalsScreen')}
+                />
+                <Button
+                    title='Ir a la seccion de recintos  >'
+                    color={'#000'}
+                    onPress={() => navigation.navigate('AddEnclosureScreen')}
+                />
+            </View>
         </View>
     )
 }
@@ -41,7 +40,7 @@ const styles = StyleSheet.create({
         height: '85%',
     },
     contenedor1: {
-        flexDirection: 'row',
+        flexDirection: 'column',
         flexWrap: 'wrap',
         justifyContent: 'space-between',
         alignSelf: 'center',

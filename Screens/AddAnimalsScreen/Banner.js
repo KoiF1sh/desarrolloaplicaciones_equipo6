@@ -1,10 +1,12 @@
-import { StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, Platform} from 'react-native';
+import Constants from 'expo-constants';
+import React, { Component } from 'react';
 
 const Banner = () =>{
     return(
         <View style={styles.container}>
-            <Text style={styles.text1}>Login</Text>
+            <Text style={styles.text1}>Registro Animal</Text>
         </View>
     )
 }
@@ -16,7 +18,7 @@ const styles = StyleSheet.create({
       backgroundColor: '#272727',
       alignItems: 'center',
       justifyContent: 'center',
-      minHeight: 50,
+      minHeight: 40,
     },
 
     text1: {

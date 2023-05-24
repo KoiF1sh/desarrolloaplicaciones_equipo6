@@ -1,14 +1,16 @@
+import StackNavigation1 from './Navigations/StackNavigation1';
+import { NavigationContainer } from '@react-navigation/native';
+import MembersProvider from './Context/MembersContext';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
-import StackNavigation1 from './Navigations/StackNavigation1'
-import BottonTabNavigator1 from './Navigations/BottonTabNavigator1';
+import { StyleSheet } from 'react-native';
 
 export default function App() {
   return (
-      <NavigationContainer>
+    <NavigationContainer>
+      <MembersProvider>
         <StackNavigation1/>
-      </NavigationContainer>
+      </MembersProvider>
+    </NavigationContainer>
   );
 }
 

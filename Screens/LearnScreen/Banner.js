@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
       backgroundColor: '#272727',
       alignItems: 'center',
       justifyContent: 'center',
-      minHeight: 50,
+      minHeight: 40,
     },
 
     text1: {

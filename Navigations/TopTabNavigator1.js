@@ -1,15 +1,16 @@
 import React from 'react';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import AddEnclosureScreen from '../Screens/AddEnclosureScreen/AddEnclosureScreen'
-import ListEnclosureScreen from '../Screens/ListEnclosureScreen/ListEnclosureScreen'
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import WelcomeScreen from '../Screens/WelcomeScreen/WelcomeScreen'
+import AddAnimalsScreen from '../Screens/AddAnimalsScreen/AddAnimalsScreen';
+import ListAnimalsScreen from '../Screens/ListAnimalsScreen/ListAnimalsScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons'
 
-const Tab = createBottomTabNavigator();
+const Tab = createMaterialTopTabNavigator();
 
-export default function BottonTabNavigator1(){
+export default function TopTabNavigator1(){
     return(
         <Tab.Navigator
-            initialRouteName="Registro Recinto"
+            initialRouteName="Registro Animal"
             screenOptions={{ //Versiones anteriores tabBarOptions
                 tabBarActiveTintColor: '#40CFFF',//activeTintColor
                 tabBarInactiveTintColor:"#ffff",//inactiveTintColor
@@ -26,20 +27,20 @@ export default function BottonTabNavigator1(){
             }}
         >
             <Tab.Screen 
-                name="Registro Recinto" 
-                component={AddEnclosureScreen}
+                name="Registro Animal" 
+                component={AddAnimalsScreen}
                 options={{
-                    tabBarLabel:"Registro Recinto",
+                    tabBarLabel:"Registro Animal",
                     tabBarIcon:({color})=>(
                         <Ionicons name={"create"} size={20} color={color}/>
                     )
                 }}
             />
             <Tab.Screen 
-                name="Listado Recinto" 
-                component={ListEnclosureScreen}
+                name="Listado Animal" 
+                component={ListAnimalsScreen}
                 options={{
-                    tabBarLabel:"Listado Recinto",
+                    tabBarLabel:"Listado Animal",
                     tabBarIcon:({color})=>(
                         <Ionicons name={"list"} size={20} color={color}/>
                     )
